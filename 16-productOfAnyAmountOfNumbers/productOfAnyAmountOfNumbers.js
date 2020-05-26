@@ -1,5 +1,9 @@
 function productOfAnyAmountOfNumbers(...args) {
-  // Insert code here;
+  var product = 1;
+  args.forEach(arg => {
+    product *= arg;
+  });
+  return product;
 }
 
 // Do not edit this line;
